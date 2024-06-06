@@ -1,0 +1,13 @@
+step 1. add event listener for user input(make sure to lowercase inputs!)
+step2. make const inputValue = input.value.toLowerCase();
+step3. clear out dropdown list with dropdown.innerHTML = "";
+step4. loop through the array of fruits. if fruit(all lowercase).startsWith(inputValue)
+        then create an option in the droplist with the same textContent as that fruit.
+        MAKE SURE TO CREATE AN EVENTLISTENER FOR EACH DROPLIST OPTION. if that droplist
+        option is clicked, make the input value that fruit and then hide the dropdown list!
+step5. if the fruit searched is not in the original array, append that fruit to droplist.
+
+step 6. dropdown.style.display = inputValue ? "block" : "none"; 
+        this will toggle the display of the dropdown list. if there is not input, 
+        the list will be hidden. If there is a matching(truthy) input, the dropdown will
+        display as a block item!

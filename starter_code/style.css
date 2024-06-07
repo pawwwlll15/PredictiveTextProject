@@ -1,0 +1,62 @@
+body {
+  /* TODO */
+  padding: 0;
+  border: none;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(245,202,28,1) 0%, rgba(235,142,14,1) 49%, rgba(237,140,10,1) 51%, rgba(224,80,0,1) 100%);
+}
+
+
+
+.search-container {
+ /* TODO */
+ padding: 0;
+ border: none;
+ display: flex;
+ height: 20rem;
+ width: 15rem;
+ justify-content: center;
+ box-sizing: border-box;
+ flex-direction: column;
+ 
+}
+
+.search-container input {
+  display: flex;
+  position: relative;
+  padding: 3px;
+  padding-bottom: 0;
+  border: none;
+  border-bottom: 1.5px solid rgb(199, 60, 5);
+  background: rgb(245, 173, 28);
+  
+  height: 25px;
+}
+
+ul {
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  list-style: none;
+  top: -6%;
+  overflow-y: auto;
+  height: 10em;
+  /* TODO */
+}
+
+/* background color for each li and scrollbar(wanted scroll bar to be hidden) */
+ul li,ul::-webkit-scrollbar {
+  background: rgb(245, 173, 28);
+}
+ul li:hover {
+  background-color: rgb(199, 60, 5);
+}
+
+
+
